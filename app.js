@@ -4,13 +4,11 @@
 
 var config = {
   // - Your app's id on moneypot.com
-  app_id: 18,                             // <----------------------------- EDIT ME!
+  app_id: 2673,                             // <----------------------------- EDIT ME!
   // - Displayed in the navbar
-  app_name: 'Untitled Dice',
-  // - For your faucet to work, you must register your site at Recaptcha
-  // - https://www.google.com/recaptcha/intro/index.html
+  app_name: 'FreeCoinz2day',
   recaptcha_sitekey: '6LfI_QUTAAAAACrjjuzmLw0Cjx9uABxb8uguLbph',  // <----- EDIT ME!
-  redirect_uri: 'https://dynamitemedia.github.io',
+  redirect_uri: 'https://dynamitemedia.github.io/',
   mp_browser_uri: 'https://www.moneypot.com',
   mp_api_uri: 'https://api.moneypot.com',
   chat_uri: '//socket.moneypot.com',
@@ -18,7 +16,7 @@ var config = {
   debug: isRunningLocally(),
   // - Set this to true if you want users that come to http:// to be redirected
   //   to https://
-  force_https_redirect: !isRunningLocally(),
+  force_https_redirect: false,
   // - Configure the house edge (default is 1%)
   //   Must be between 0.0 (0%) and 1.0 (100%)
   house_edge: 0.01,
