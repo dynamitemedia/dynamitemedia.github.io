@@ -1651,19 +1651,6 @@ var Tabs = React.createClass({
             },
             'My Bets'
           )
-        ),
-      // Display faucet tab even to guests so that they're aware that
-      // this casino has one.
-      !config.recaptcha_sitekey ? '' :
-        el.li(
-          {className: worldStore.state.currTab === 'FAUCET' ? 'active' : ''},
-          el.a(
-            {
-              href: 'javascript:void(0)',
-              onClick: this._makeTabChangeHandler('FAUCET')
-            },
-            el.span(null, 'Faucet ')
-          )
         )
     );
   }
