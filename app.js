@@ -2132,10 +2132,6 @@ var App = React.createClass({
         el.div(
           {className: 'col-sm-5'},
           React.createElement(BetBox, null)
-        ),
-        el.div(
-          {className: 'col-sm-7'},
-          React.createElement(ChatBox, null)
         )
       ),
       // Tabs
