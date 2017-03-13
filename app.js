@@ -8,15 +8,15 @@ var config = {
   // - Displayed in the navbar
   app_name: 'FreeCoinz2day',
   recaptcha_sitekey: '6LfI_QUTAAAAACrjjuzmLw0Cjx9uABxb8uguLbph',  // <----- EDIT ME!
-  redirect_uri: 'https://dynamitemedia.github.io/',
+  redirect_uri: 'http://dynamitemedia.github.io/',
   mp_browser_uri: 'https://www.moneypot.com',
   mp_api_uri: 'https://api.moneypot.com',
-  chat_uri: '//socket.moneypot.com',
+  chat_uri: 'https://socket.moneypot.com',
   // - Show debug output only if running on localhost
   debug: isRunningLocally(),
   // - Set this to true if you want users that come to http:// to be redirected
   //   to https://
-  force_https_redirect: true,
+  force_https_redirect: false,
   // - Configure the house edge (default is 1%)
   //   Must be between 0.0 (0%) and 1.0 (100%)
   house_edge: 0.01,
